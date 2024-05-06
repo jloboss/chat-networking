@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.Contenedor {
+  display: flex;
+  height: 100vh;
+}
+.contactos {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  flex-grow: 1;
+  max-width: 380px;
+  border: 1px solid #ccc;
+  overflow-y: scroll;
+}
+.caja_chica,
+.caja_grande {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #bec1bb;
+  padding: 8px 0px;
+  width: 100%;
+}
+.caja_chica:hover,
+.caja_grande:hover {
+  background-color: #e8ebe4;
+  cursor: pointer;
+}
+.caja_chica img {
+  width: 30px;
+  border-radius: 50%;
+}
+.caja_chica p {
+  font-size: 14px;
+}
+.caja_chica small {
+  font-size: 10px;
+  color: #828485;
+}
+
+.caja_grande img {
+  width: 30px;
+  border-radius: 50%;
+}
+
+.img-usr {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  flex-grow: 1;
+}
+.info_usr {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 5;
+}
+.info_usr p {
+  font-size: 1rem;
+}
+.info_usr h6 {
+  text-align: end;
+}
+.iconos_usr {
+  justify-content: center;
+  align-self: center;
+  flex-grow: 1;
+}
+.user-icons ul {
+  display: flex;
+  gap: 1rem;
+  color: #bec1bb;
+  font-size: 24px;
+}
+.user-icons li {
+  list-style: none;
+}
+
+.chat {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  flex-grow: 3;
+  height: 100vh;
+}
+
+.info_centrada {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.info_centrada .encabezado {
+  font-size: 45px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #bec1bb;
+  width: 100%;
+  padding: 2rem 0;
+}
+.chatf {
+  color: rgb(255, 255, 255);
+  background-color: #3ab608;
+  font-size: larger;
+  height: 4rem;
+  width: 75%;
+  cursor: pointer;
+}
+.chatf:hover {
+  background-color: #d1a40e;
+}
+
+.open-sans-regular {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+#chat:hover,
+#hamburgesa:hover {
+  color: #828485;
+}
